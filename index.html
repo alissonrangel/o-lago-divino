@@ -186,15 +186,22 @@
                         <!-- "E esse Santo Paraíso está entre dois mundos diferentes... Um reflexo do céu para a alma que
                         busca o Amor Divino." -->
                     </p>
-                    <div class="pt-4 flex justify-center space-x-4">
+                    <div class="pt-4 flex justify-center space-x-4" style=" flex-direction: column;">
                         <button onclick="showPage('read', 1)"
                             class="bg-amber-500 hover:bg-amber-600 text-white px-6 py-3 rounded-full font-medium transition shadow-md hover:shadow-lg flex items-center">
                             Ler Poema Principal <i class="fa-solid fa-arrow-right ml-2 text-sm"></i>
                         </button>
+                        <br>
                         <button onclick="showPage('index')"
                             class="bg-white hover:bg-slate-50 text-slate-700 border border-slate-200 px-6 py-3 rounded-full font-medium transition shadow-sm">
                             Explorar Índice
                         </button>
+                        <br>
+                        <audio controls preload="metadata" loop aria-label="Trilha sonora da página">
+                            <source src="./audio/instrumental.mp3" type="audio/mpeg">
+                            Seu navegador não consegue reproduzir este áudio.
+                        </audio>
+
                     </div>
                 </div>
             </div>
@@ -1027,7 +1034,7 @@ De sua mais doce tiúba"
 E assim sentir o aroma 
 Antes que ele definha
 O aroma de rosas
-De Sua mais doce abelhinha`
+De Sua abelha rainha`
             },
             {
                 id: 10,
